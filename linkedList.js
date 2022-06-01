@@ -85,6 +85,9 @@ function LinkedList() {
     setNode.element = element;
     return true;
   }
+  this.isEmpty = function () {
+    return length == 0;
+  }
 }
 
 let linkList = new LinkedList();
